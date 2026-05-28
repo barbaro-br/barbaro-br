@@ -1,125 +1,93 @@
 <div align="center">
 
-# Olá, eu sou Francisco Montalvão! 👋✨    
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Francisco%20Montalvão&fontSize=50&fontColor=e94560&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20·%20Java%20%7C%20Spring%20Boot&descAlignY=58&descSize=18&descColor=a8b2d8"/>
 
-<!-- ## Meu Portfólio
-[![Portfólio](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://google.com) -->
-
-### 🌟 Sobre Mim  
-<br>
-<br>
-
-🚀 **TRANSIÇÃO EXPLOSIVA DE CARREIRA! 🌟💼**
-
-<br>
-<div align="left">
-👨‍💼 Aos 29 anos, sou um apaixonado por vendas, atuando como representante comercial. 💼 No último semestre, canalizei toda a minha energia para uma transição de carreira rumo ao fascinante mundo da tecnologia. 🌐💡
-<br>
-<br>
-
-👨‍💻 Em apenas seis meses, mergulhei de cabeça e adquiri habilidades em tecnologias de ponta:
-<br>
-<br>
-
-    - 💻 JavaScript
-    - ⚛️ React
-    - 🌐 HTML/CSS
-    - 🎨 Tailwind CSS
-    - 🔄 Versionamento de código com Git
-    - 🐧 Linux
-    - 🌐 GitHub (Contribuindo para a comunidade!)
-    - 🚀 Vercel (Para deploy rápido e eficiente)
-    - ⚡ Vite (Acelerando o desenvolvimento)
-
-🚀 E isso é só o começo! 🚀 Atualmente, estou imerso no aprendizado de Java e, para intensificar ainda mais meu conhecimento, estou trilhando o caminho da Engenharia de Software. 🚀📚
-
-🔥 Trabalho duro durante o dia, mergulho nos estudos à noite! A jornada é desafiadora, mas cada linha de código é um passo em direção ao meu sonho na área de tecnologia. 💪✨
-
-📚 Vamos juntos nessa jornada de aprendizado e crescimento! 🚀🌈
-
-*#TechEnthusiast #JavaScriptNinja #CodePassion* 🚀👨‍💻✨📈🎓🌍🔥
-</div>
-
-___
-
-### 📊 Estatísticas do GitHub
-
-[![Estatísticas do GitHub de Francisco Montalvão](https://github-readme-stats.vercel.app/api?username=FranciscoMontalvao&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
-
-![Visitas ao Perfil](https://visitor-badge.glitch.me/badge?page_id=FranciscoMontalvao.FranciscoMontalvao)
-
----
-
-<div align="left">
-
-### 🛠️ Tecnologias que Uso no Meu Dia a Dia
-
-## Para programar
-<img align="center" alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img align="center" alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img align="center" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img align="center" alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img align="center" alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img align="center" alt="Type script" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-
-
-## Para versionar código
-
-<img align="center" alt="Git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
-
-## Para design
-<img align="center" alt="Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white"/>
-<img align="center" alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-
-## Para produtividade
-<img align="center" alt="Notion" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
-
-## IDEs que conheço
-<img align="center" alt="Vscode" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
-
-## Para deploy
-<img align="center" alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-<img align="center" alt="Github" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-
----
-
-
-</div>
-<br>
-
-
-### 🚀 Redes Sociais
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Xico_Montalvao)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-montalvao-76a1a090/)
+[![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:f.montalvao@outlook.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5538997225058)
 
-
-</br>
-<div align="left">
-
-### 🎸 Hobbies e Interesses
-
-      ⚽ 🥅 Futebol
-
-      🚴 Ciclismo
-  
-      📖  📚 Apaixonado por leitura
-
-      🧘 Estoicismo
-
-     🌟✨ Movimente-se! 🚀🌌
 </div>
 
 ---
 
-## 📞 Contatos
+## 👨‍💻 Sobre mim
 
-[![Mail](https://img.shields.io/badge/Meu_Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:f.montalvao@outlook.com)
-[![Whatsapp](https://img.shields.io/badge/Meu_Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5538997225058)
-[![Telegram](https://img.shields.io/badge/Meu_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Francisco_Montalvao)
+Desenvolvedor backend focado em **Java** e **Spring Boot**, construindo APIs REST com boas práticas, organização em camadas e tratamento de erros. Atualmente cursando **Engenharia de Software** e praticando através de projetos reais e desafios práticos.
 
-###  📣 Sinta-se à vontade para me contatar!
+Antes da tecnologia, trabalhei com vendas — o que me deu visão de negócio, comunicação e resiliência. Hoje uso tudo isso para escrever código que resolve problemas reais.
+
+- 🔭 Trabalhando em: [backend-challenges](https://github.com/Francisco-Montalvao/backend-challenges) — repositório de desafios práticos de backend
+- 🌱 Estudando: Spring Boot, JPA, arquitetura REST, Docker
+- 🎯 Objetivo: vaga de desenvolvedor backend Java
+
+---
+
+## 🛠️ Stack
+
+**Backend**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Validation](https://img.shields.io/badge/Spring%20Validation-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+
+**Banco de dados**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Ferramentas**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+
+---
+
+## 🚀 Projetos
+
+### [backend-challenges](https://github.com/Francisco-Montalvao/backend-challenges)
+Repositório de desafios práticos de backend organizados por nível — Júnior, Pleno e Sênior. Cada desafio tem enunciado, exemplos de requisição e resposta, e um `SOLUTIONS.md` para a comunidade compartilhar soluções em qualquer linguagem.
+
+### [Gerenciador de Produtos](https://github.com/Francisco-Montalvao/backend-challenges-desafio-gerenciador-de-produtos)
+API REST construída com Java 21 + Spring Boot para gerenciar catálogo de produtos de um e-commerce. Cobre CRUD completo, relacionamentos JPA, validação com Bean Validation, tratamento de exceções customizadas e boas práticas REST.
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+
+### [Customer Loans API](https://github.com/Francisco-Montalvao/loans)
+API de análise de elegibilidade para modalidades de empréstimo. Regras de negócio baseadas em renda, idade e localização, com validação estruturada e handler global de exceções.
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Francisco's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Francisco-Montalvao&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Francisco-Montalvao&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Francisco-Montalvao&theme=tokyonight&hide_border=true&background=0d1117&ring=e94560&fire=e94560&currStreakLabel=a8b2d8)
+
 </div>
 
-___
+---
+
+## 🎸 Fora do código
+
+⚽ Futebol — 🚴 Ciclismo — 📚 Leitura — 🧘 Estoicismo
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=100&section=footer"/>
+
+</div>
