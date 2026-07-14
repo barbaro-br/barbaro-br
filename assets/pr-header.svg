@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="260" viewBox="0 0 840 260" role="img" aria-label="Pull request: adicionar Francisco Montalvão ao time de backend">
+  <style>
+    text {
+      font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      fill: #c9d1d9;
+    }
+    .mono   { font-family: ui-monospace, "Cascadia Code", "Fira Code", Consolas, Menlo, monospace; }
+    .line   { opacity: 0; animation: reveal .35s ease-out forwards; }
+    .d1 { animation-delay: .2s; }
+    .d2 { animation-delay: .7s; }
+    .d3 { animation-delay: 1.3s; }
+    .d4 { animation-delay: 1.9s; }
+    .d5 { animation-delay: 2.5s; }
+    .d6 { animation-delay: 3.1s; }
+    @keyframes reveal { to { opacity: 1; } }
+    .title  { fill: #e6edf3; font-size: 22px; font-weight: 600; }
+    .num    { fill: #8b949e; font-weight: 400; }
+    .dim    { fill: #8b949e; }
+    .branch { fill: #a5d6ff; }
+    .ok     { fill: #3fb950; font-weight: bold; }
+    .warn   { fill: #d29922; font-weight: bold; }
+    .pulse  { animation: pulse 1.6s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    @keyframes pulse { 50% { opacity: .3; } }
+  </style>
+
+  <!-- card -->
+  <rect x="1" y="1" width="838" height="258" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+
+  <!-- PR title -->
+  <text x="28" y="48" class="line d1 title">feat: adicionar Francisco Montalvão ao seu time <tspan class="num">#001</tspan></text>
+
+  <!-- Open pill -->
+  <g class="line d2">
+    <rect x="28" y="66" width="96" height="32" rx="16" fill="#238636"/>
+    <g transform="translate(40, 74) scale(1.05)" fill="#ffffff">
+      <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"/>
+    </g>
+    <text x="62" y="87" fill="#ffffff" font-weight="600">Open</text>
+    <text x="140" y="87" class="dim"><tspan fill="#e6edf3" font-weight="600">barbaro-br</tspan> quer mesclar 1 dev em <tspan class="mono branch">seu-time:main</tspan> a partir de <tspan class="mono branch">montalvao:backend</tspan></text>
+  </g>
+
+  <line x1="1" y1="116" x2="839" y2="116" stroke="#30363d" stroke-width="1"/>
+
+  <!-- checks -->
+  <text x="28" y="148" class="line d3"><tspan class="ok">✓</tspan>  <tspan fill="#e6edf3" font-weight="600">build</tspan> <tspan class="dim">— Java · Spring Boot · PostgreSQL — passou</tspan></text>
+  <text x="28" y="178" class="line d4"><tspan class="ok">✓</tspan>  <tspan fill="#e6edf3" font-weight="600">produção</tspan> <tspan class="dim">— sistema real rodando para cliente real — passou</tspan></text>
+  <text x="28" y="208" class="line d5"><tspan class="warn pulse">●</tspan>  <tspan fill="#e6edf3" font-weight="600">review</tspan> <tspan class="dim">— aguardando um revisor... esse é você 👀</tspan></text>
+
+  <!-- merge hint -->
+  <text x="28" y="240" class="line d6 mono"><tspan class="ok">✓</tspan> <tspan class="dim">Sem conflitos com o branch base — merge liberado.</tspan></text>
+</svg>
