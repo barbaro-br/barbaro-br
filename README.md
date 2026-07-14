@@ -1,100 +1,94 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Backend+Developer+%C2%B7+Java+%26+Spring+Boot;De+vendas+para+tecnologia.+A+virada+foi+intencional.;Construindo+software+real+para+neg%C3%B3cios+reais.)
+<img src="assets/header.svg" alt="Francisco Montalvão — Backend Developer · Java & Spring Boot" width="840">
+
+<br><br>
+
+# Montalvão API — Documentação Oficial
+
+**Base URL:** `github.com/Francisco-Montalvao` · **Versão:** `2.0` · **Ambiente:** produção
+
+*Esta não é uma API de mock. Todos os endpoints retornam dados reais.*
 
 </div>
 
+<br>
+
+## `GET /sobre`
+
+**`200 OK`**
+
+```json
+{
+  "nome": "Francisco Montalvão",
+  "cargo": "Backend Developer",
+  "stack_principal": ["Java", "Spring Boot", "PostgreSQL"],
+  "formacao": "Engenharia de Software",
+  "base": "Montalvânia — MG, Brasil",
+  "historia": "Passei anos vendendo. Hoje construo os sistemas que sustentam vendas."
+}
 ```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   $ whoami                                                   ║
-║   > Francisco Montalvão                                      ║
-║                                                              ║
-║   $ cat ./sobre.txt                                          ║
-║   > Backend Developer · Java & Spring Boot                   ║
-║   > Engenharia de Software · Montalvânia, MG                 ║
-║   > Antes vendia. Agora constrói APIs.                       ║
-║                                                              ║
-║   $ git log --oneline --all                                  ║
-║   > e94560a feat: entrar na área de tecnologia               ║
-║   > 16213ef chore: abandonar zona de conforto                ║
-║   > 0f3460b init: primeiro Hello World                       ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
+
+> ⚠️ **BREAKING CHANGE na v2.0** — migração completa de vendas para engenharia de software.
+> Não foi acidente, foi deploy planejado. As skills de cliente da v1 foram portadas: quem já
+> negociou com cliente difícil não tem medo de requisito mal escrito.
 
 <br>
 
-## `$ cat ./destaque.md` — 🍔 Mestre do Sabor
+## `GET /projetos/mestre-do-sabor` ⭐
 
-> **Sistema completo para uma hamburgueria real** — cliente de verdade, pedidos de verdade,
-> regras de negócio de verdade. Não é projeto de tutorial: é software indo pra produção.
+**`200 OK`** — *projeto em destaque*
 
-```
-┌─────────────────┐      ┌──────────────────┐
-│  App do Cliente │      │   Painel Admin   │
-│   React + Vite  │      │ React + Tailwind │
-│ cardápio·pedido │      │ Kanban·PDV·CRM   │
-└────────┬────────┘      └────────┬─────────┘
-         │      REST / JSON       │
-         ▼                        ▼
-┌──────────────────────────────────────────┐
-│           API · Spring Boot 4            │
-│  Java 25 · JPA · Flyway · Bean Validation│
-│  contrato definido ANTES do código       │
-└────────────────────┬─────────────────────┘
-                     ▼
-          ┌─────────────────────┐
-          │  PostgreSQL 18      │
-          │  Docker Compose     │
-          └─────────────────────┘
+Sistema completo para uma hamburgueria real — cliente de verdade, pedidos de verdade, regras de negócio de verdade. Não é projeto de tutorial: é software indo pra produção.
+
+> 🔒 Repositório privado (projeto comercial com cliente real). Demonstração, prints e walkthrough do código disponíveis sob pedido — só chamar no [`POST /contato`](#post-contato).
+
+```mermaid
+flowchart TB
+    A["📱 App do Cliente<br/>React + Vite<br/><i>cardápio · pedidos</i>"] -->|REST / JSON| C
+    B["🖥️ Painel Admin<br/>React + Tailwind<br/><i>Kanban · PDV · CRM</i>"] -->|REST / JSON| C
+    C["⚙️ API — Spring Boot 4 · Java 25<br/>JPA · Flyway · Bean Validation<br/><i>contrato definido antes do código</i>"] --> D[("🐘 PostgreSQL 18<br/>Docker Compose")]
 ```
 
 **Decisões de engenharia que eu defendo em entrevista:**
 
-- 🔒 **Zero trust no cliente** — backend recalcula todos os totais; front nunca dita preço
-- 📸 **Pedido é snapshot** — endereço e preços congelados no momento da compra (histórico imutável)
-- 🗃️ **Migrations versionadas** com Flyway — schema com 11 tabelas escrito à mão, constraint por constraint
-- 🧱 **Domínio rico** — entities com validação e comportamento, sem setters anêmicos, sem Lombok
-- 📜 **Contract-first** — API documentada antes da primeira linha de código; front e back evoluem sem surpresa
+| Decisão | Por quê |
+|---|---|
+| 🔒 Zero trust no cliente | Backend recalcula todos os totais — o front nunca dita preço |
+| 📸 Pedido é snapshot | Endereço e preços congelados no momento da compra: histórico imutável |
+| 🗃️ Migrations versionadas (Flyway) | Schema com 11 tabelas escrito à mão, constraint por constraint |
+| 🧱 Domínio rico | Entities com validação e comportamento — sem setters anêmicos, sem Lombok |
+| 📜 Contract-first | API documentada antes da primeira linha de código; front e back evoluem sem surpresa |
 
 **Roadmap:**
 
 - [x] Modelagem do banco + migrations (Flyway)
 - [x] Docker Compose gerenciado pela aplicação
-- [x] Domínios Settings e Category (CRUD completo, validações, 409/404 semânticos)
-- [ ] Customer · Product · Order (em andamento)
+- [x] Domínios Settings e Category — CRUD completo, validações, `409`/`404` semânticos
+- [ ] Customer · Product · Order *(em andamento)*
 - [ ] Autenticação JWT com Spring Security
-- [ ] Deploy em VPS: Caddy + Docker + backups automatizados com pg_dump
+- [ ] Deploy em VPS: Caddy + Docker + backups automatizados com `pg_dump`
 
----
+<br>
 
-## `$ ls ./outros-projetos`
+## `GET /projetos`
+
+**`200 OK`** — `Content-Range: 1-3/*` *(coleção em crescimento)*
 
 **[backend-challenges](https://github.com/Francisco-Montalvao/backend-challenges)**
-```
-Repositório de desafios práticos organizados por nível.
-Júnior → Pleno → Sênior. Qualquer linguagem.
-A ideia: aprender fazendo, não só lendo.
-```
+Repositório de desafios práticos organizados por nível: Júnior → Pleno → Sênior, em qualquer linguagem. A ideia: aprender fazendo, não só lendo.
 
 **[Gerenciador de Produtos](https://github.com/Francisco-Montalvao/backend-challenges-desafio-gerenciador-de-produtos)**
-```
-API REST completa. CRUD de produtos e categorias.
-Validações, exceções customizadas, boas práticas REST.
-Java 21 · Spring Boot · PostgreSQL · Docker
-```
+API REST completa com CRUD de produtos e categorias, validações, exceções customizadas e boas práticas REST. `Java 21 · Spring Boot · PostgreSQL · Docker`
 
 **[Customer Loans API](https://github.com/Francisco-Montalvao/loans)**
-```
-Elegibilidade para modalidades de empréstimo.
-Regras de negócio por renda, idade e localização.
-Java 21 · Spring Boot · Bean Validation
-```
+Motor de elegibilidade para modalidades de empréstimo, com regras de negócio por renda, idade e localização. `Java 21 · Spring Boot · Bean Validation`
 
----
+<br>
 
-## `$ cat ./stack.json`
+## `GET /stack`
+
+**`200 OK`**
 
 <div align="center">
 
@@ -105,63 +99,68 @@ Java 21 · Spring Boot · Bean Validation
 ![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![Swagger](https://img.shields.io/badge/SpringDoc_·_Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 
 </div>
 
----
+<br>
 
-## `$ ./status --now`
+## `GET /vagas/backend-junior`
 
-```java
-public String[] atualmente() {
-    return new String[]{
-        "Construindo: backend real em produção para cliente real (Mestre do Sabor)",
-        "Estudando: arquitetura de software, JPA a fundo e boas práticas REST",
-        "Buscando: primeira vaga como desenvolvedor backend — remoto ou presencial"
-    };
+**`404 Not Found`**
+
+```json
+{
+  "erro": "recurso ainda não encontrado",
+  "detalhe": "buscando a primeira vaga como desenvolvedor backend — remoto ou presencial",
+  "enquanto_isso": [
+    "construindo backend real em produção para cliente real (Mestre do Sabor)",
+    "estudando arquitetura de software, JPA a fundo e boas práticas REST"
+  ],
+  "resolucao_sugerida": "esse 404 vira 200 com um POST /contato 👇"
 }
 ```
 
-<div align="center">
+<br>
 
-![Streak](https://streak-stats.demolab.com?user=Francisco-Montalvao&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=8b949e)
+## `POST /contato`
 
-</div>
-
----
-
-## `$ cat ./fora_do_codigo.txt`
-
-```
-⚽ Futebol     → melhor que qualquer standup
-🚴 Ciclismo    → debug em movimento
-📚 Leitura     → refatorando o sistema operacional
-🧘 Estoicismo  → tratamento de exceções da vida real
-```
-
----
-
-## `$ cat ./contatos.txt`
+**`202 Accepted`** — *rate limit: nenhum · tempo de resposta: rápido*
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-montalvao-76a1a090/)
 [![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:f.montalvao@outlook.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5538997225058)
 
 </div>
 
----
+<br>
+
+## `GET /rate-limit`
+
+**`429 Too Many Requests`** — *todo sistema precisa de janela de recarga:*
+
+| Recurso | Função no sistema |
+|---|---|
+| ⚽ Futebol | Melhor que qualquer standup |
+| 🚴 Ciclismo | Debug em movimento |
+| 📚 Leitura | Refatorando o sistema operacional |
+| 🧘 Estoicismo | Tratamento de exceções da vida real |
+
+<br>
+
+## `CHANGELOG.md`
+
+```
+[2.0.0] BREAKING CHANGE: migração de vendas para engenharia de software
+[1.x.x] anos lidando com cliente na vida real — feature portada para a v2
+[0.1.0] init: primeiro "Hello, World"
+```
+
+<br>
 
 <div align="center">
 
-```
-// Ainda em desenvolvimento. Como todo bom software.
-```
+`// Status: 🟢 em desenvolvimento ativo. Como todo bom software.`
 
 </div>
