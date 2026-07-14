@@ -22,52 +22,35 @@ Este pull request adiciona um **desenvolvedor backend júnior** ao seu time — 
 
 ## 📁 Arquivos alterados
 
-**`seu-time/backend/composicao.diff`**
+<div align="center">
 
-```diff
-  time de backend
-+ dev que já colocou sistema real em produção (não é clone de tutorial)
-+ domínio rico: entities com validação e comportamento — sem setter anêmico
-+ migrations escritas à mão, constraint por constraint (Flyway, 11 tabelas)
-+ contract-first: API documentada antes da primeira linha de código
-+ zero trust no front: backend recalcula todo total — o cliente nunca dita preço
-- medo de requisito mal escrito
-- "funciona na minha máquina" como resposta final
-```
+<img src="assets/diff-backend.svg" alt="Diff — o time de backend ganha: dev com sistema real em produção, domínio rico, migrations à mão, contract-first e zero trust no front. Sai: medo de requisito mal escrito." width="840">
 
-**`seu-time/soft-skills.diff`**
+<br><br>
 
-```diff
-  comunicação com stakeholders
-+ anos de vendas na vida real: escuta, negociação e paciência forjadas no balcão
-+ tradução fluente entre "o que o cliente pediu" e "o que o cliente precisa"
-- silêncio desconfortável na daily
-```
+<img src="assets/diff-softskills.svg" alt="Diff — soft skills: entram anos de vendas na vida real e tradução entre o que o cliente pediu e o que ele precisa. Sai: silêncio desconfortável na daily." width="840">
+
+</div>
 
 <br>
 
 ## 📝 Commits
 
-```
-* f5a9c21  feat!: migração de vendas para engenharia de software
-|          BREAKING CHANGE — não foi acidente, foi deploy planejado.
-* 8d3e07b  feat: sistema de pedidos em produção para cliente real
-|          Spring Boot · JPA · Flyway · Docker — hamburgueria de verdade.
-* 1a00000  init: primeiro "Hello, World"
-```
+<div align="center">
+
+<img src="assets/commits.svg" alt="Três commits: init Hello World, sistema de pedidos em produção para cliente real, e a migração de vendas para engenharia de software (BREAKING CHANGE planejado)." width="840">
+
+</div>
 
 <br>
 
 ## ✅ Checks
 
-| Check | Status | Detalhes |
-|---|---|---|
-| **build** | ✅ passou | Java 21→25 · Spring Boot 4 · PostgreSQL · Docker · Maven |
-| **integração com produção** | ✅ passou | Sistema real pra cliente real — repo privado (projeto comercial); demo e walkthrough do código sob pedido |
-| **formação** | ✅ passou | Engenharia de Software · base em Montalvânia — MG, Brasil |
-| **review** | ⏳ aguardando | Um revisor precisa aprovar. **Esse revisor é você.** |
-
 <div align="center">
+
+<img src="assets/checks.svg" alt="3 de 4 checks passaram: build (Java, Spring Boot, PostgreSQL), integração com produção e formação. Falta o review — que é você." width="840">
+
+<br><br>
 
 ![Java](https://img.shields.io/badge/Java_21→25-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
@@ -98,15 +81,15 @@ Este pull request adiciona um **desenvolvedor backend júnior** ao seu time — 
 
 ## ✅ Merge pull request
 
-> **Sem conflitos com o branch base.** O merge leva menos de um minuto:
-
 <div align="center">
+
+<a href="https://www.linkedin.com/in/francisco-montalvao-76a1a090/">
+<img src="assets/merge-box.svg" alt="Sem conflitos com o branch base. Botão: Merge pull request — clique para abrir o LinkedIn." width="840">
+</a>
+
+<br><br>
 
 [![LinkedIn](https://img.shields.io/badge/Merge_via_LinkedIn-238636?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-montalvao-76a1a090/)
 [![Email](https://img.shields.io/badge/Merge_via_Email-238636?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:f.montalvao@outlook.com)
-
-<br>
-
-`// squash and merge recomendado: anos de história, um commit objetivo.`
 
 </div>

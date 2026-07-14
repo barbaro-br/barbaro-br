@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="168" viewBox="0 0 840 168" role="img" aria-label="Diff: o que muda nas soft skills do time com este merge">
+  <style>
+    text { font-family: ui-monospace, "Cascadia Code", "Fira Code", Consolas, Menlo, monospace; font-size: 14px; fill: #c9d1d9; }
+    .row { opacity: 0; animation: reveal .3s ease-out forwards; }
+    .r1 { animation-delay: 1.4s; } .r2 { animation-delay: 1.55s; }
+    .r3 { animation-delay: 1.7s; } .r4 { animation-delay: 1.85s; }
+    @keyframes reveal { to { opacity: 1; } }
+    .file { fill: #e6edf3; font-weight: bold; }
+    .num  { fill: #6e7681; font-size: 12px; }
+    .add  { fill: #3fb950; }
+    .del  { fill: #f85149; }
+    .dim  { fill: #8b949e; }
+  </style>
+
+  <defs>
+    <clipPath id="card2"><rect x="1" y="1" width="838" height="166" rx="14"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="838" height="166" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+
+  <g transform="translate(28, 15)" fill="#8b949e">
+    <path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914Z"/>
+  </g>
+  <text x="54" y="28" class="file">seu-time/soft-skills.diff</text>
+  <text x="812" y="28" text-anchor="end"><tspan class="add">+2</tspan> <tspan class="del">−1</tspan></text>
+  <line x1="1" y1="44" x2="839" y2="44" stroke="#30363d" stroke-width="1"/>
+
+  <g clip-path="url(#card2)">
+    <g class="row r1">
+      <text x="30" y="63" class="num">1</text><text x="62" y="63" class="num">1</text>
+      <text x="110" y="63" class="dim">comunicação com stakeholders</text>
+    </g>
+    <g class="row r2">
+      <rect x="1" y="72" width="838" height="28" fill="#da3633" opacity="0.12"/>
+      <text x="30" y="91" class="num">2</text>
+      <text x="92" y="91" class="del">−</text><text x="110" y="91" class="del">silêncio desconfortável na daily</text>
+    </g>
+    <g class="row r3">
+      <rect x="1" y="100" width="838" height="28" fill="#238636" opacity="0.14"/>
+      <text x="62" y="119" class="num">2</text>
+      <text x="92" y="119" class="add">+</text><text x="110" y="119" class="add">anos de vendas na vida real: escuta, negociação e paciência de balcão</text>
+    </g>
+    <g class="row r4">
+      <rect x="1" y="128" width="838" height="28" fill="#238636" opacity="0.14"/>
+      <text x="62" y="147" class="num">3</text>
+      <text x="92" y="147" class="add">+</text><text x="110" y="147" class="add">tradução fluente entre "o que o cliente pediu" e "o que ele precisa"</text>
+    </g>
+  </g>
+</svg>

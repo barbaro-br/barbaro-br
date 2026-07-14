@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="248" viewBox="0 0 840 248" role="img" aria-label="Histórico de commits: de vendas para engenharia de software">
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; fill: #c9d1d9; }
+    .mono { font-family: ui-monospace, "Cascadia Code", "Fira Code", Consolas, Menlo, monospace; }
+    .item { opacity: 0; animation: reveal .35s ease-out forwards; }
+    .c1 { animation-delay: 1.1s; } .c2 { animation-delay: .7s; } .c3 { animation-delay: .3s; }
+    @keyframes reveal { to { opacity: 1; } }
+    .head { fill: #e6edf3; font-weight: 600; }
+    .msg  { fill: #e6edf3; font-weight: 600; }
+    .dim  { fill: #8b949e; font-size: 13px; }
+    .hash { fill: #58a6ff; font-size: 13px; }
+    .trunk { stroke: #30363d; stroke-width: 2; stroke-dasharray: 156; stroke-dashoffset: 156; animation: draw 1.4s ease-out forwards; animation-delay: .2s; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+  </style>
+
+  <rect x="1" y="1" width="838" height="246" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+
+  <!-- header -->
+  <g transform="translate(28, 16)" fill="#8b949e">
+    <path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"/>
+  </g>
+  <text x="54" y="29" class="head">Commits <tspan class="dim">· 3 — a história em conventional commits</tspan></text>
+  <line x1="1" y1="44" x2="839" y2="44" stroke="#30363d" stroke-width="1"/>
+
+  <!-- graph trunk -->
+  <line x1="40" y1="70" x2="40" y2="226" class="trunk"/>
+
+  <!-- newest -->
+  <g class="item c1">
+    <circle cx="40" cy="80" r="6" fill="#3fb950"/>
+    <text x="64" y="78" class="msg">feat!: migração de vendas para engenharia de software</text>
+    <text x="64" y="98" class="dim">BREAKING CHANGE — não foi acidente, foi deploy planejado.</text>
+    <text x="812" y="78" text-anchor="end" class="mono hash">f5a9c21</text>
+  </g>
+
+  <g class="item c2">
+    <circle cx="40" cy="146" r="6" fill="#3fb950"/>
+    <text x="64" y="144" class="msg">feat: sistema de pedidos em produção para cliente real</text>
+    <text x="64" y="164" class="dim">Spring Boot · JPA · Flyway · Docker — hamburgueria de verdade.</text>
+    <text x="812" y="144" text-anchor="end" class="mono hash">8d3e07b</text>
+  </g>
+
+  <g class="item c3">
+    <circle cx="40" cy="212" r="6" fill="#3fb950"/>
+    <text x="64" y="210" class="msg">init: primeiro "Hello, World"</text>
+    <text x="64" y="230" class="dim">Todo sistema em produção começou assim.</text>
+    <text x="812" y="210" text-anchor="end" class="mono hash">1a00000</text>
+  </g>
+</svg>
