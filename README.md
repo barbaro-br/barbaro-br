@@ -6,7 +6,7 @@
 
 # Montalvão API — Documentação Oficial
 
-**Base URL:** `github.com/Francisco-Montalvao` · **Versão:** `2.0` · **Ambiente:** produção
+**Base URL:** `github.com/barbaro-br` · **Versão:** `2.0` · **Ambiente:** produção
 
 *Esta não é uma API de mock. Todos os endpoints retornam dados reais.*
 
@@ -75,13 +75,13 @@ flowchart TB
 
 **`200 OK`** — `Content-Range: 1-3/*` *(coleção em crescimento)*
 
-**[backend-challenges](https://github.com/Francisco-Montalvao/backend-challenges)**
+**[backend-challenges](https://github.com/barbaro-br/backend-challenges)**
 Repositório de desafios práticos organizados por nível: Júnior → Pleno → Sênior, em qualquer linguagem. A ideia: aprender fazendo, não só lendo.
 
-**[Gerenciador de Produtos](https://github.com/Francisco-Montalvao/backend-challenges-desafio-gerenciador-de-produtos)**
+**[Gerenciador de Produtos](https://github.com/barbaro-br/backend-challenges-desafio-gerenciador-de-produtos)**
 API REST completa com CRUD de produtos e categorias, validações, exceções customizadas e boas práticas REST. `Java 21 · Spring Boot · PostgreSQL · Docker`
 
-**[Customer Loans API](https://github.com/Francisco-Montalvao/loans)**
+**[Customer Loans API](https://github.com/barbaro-br/loans)**
 Motor de elegibilidade para modalidades de empréstimo, com regras de negócio por renda, idade e localização. `Java 21 · Spring Boot · Bean Validation`
 
 <br>
